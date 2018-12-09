@@ -42,7 +42,7 @@ import env_lab  # noqa
 import env_user  # noqa
 
 # Create a Cisco Spark object
-spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.SPARK_ACCESS_TOKEN)
+#spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.SPARK_ACCESS_TOKEN)
 
 # Create message list
 messages = [
@@ -79,4 +79,4 @@ for device in devices:
     messages.append("Device {} IP set to {}".format(result[0], result[1]))
 
 # Post message to Spark
-spark.messages.create(roomId=env_user.SPARK_ROOM_ID, text="\n".join(messages))
+#spark.messages.create(roomId=env_user.SPARK_ROOM_ID, text="\n".join(messages))
