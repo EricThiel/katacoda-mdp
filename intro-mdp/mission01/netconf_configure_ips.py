@@ -27,7 +27,7 @@ import os
 import sys
 from netconf_functions import check_ip, set_ip
 
-import ciscosparkapi
+#import ciscosparkapi
 
 # Get the absolute path for the directory where this file is located "here"
 here = os.path.abspath(os.path.dirname(__file__))
