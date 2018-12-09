@@ -49,7 +49,7 @@ IOS_XE_1 = {
     "restconf_port": 9443,
     "ssh_port": 5001
 }
-IOS_XE_1 = {
+IOS_XE_2 = {
     "host": "173.37.56.91",
     "username": "cisco",
     "password": "C1sco12345",
