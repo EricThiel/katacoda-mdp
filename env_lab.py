@@ -49,6 +49,14 @@ IOS_XE_1 = {
     "restconf_port": 9443,
     "ssh_port": 5001
 }
+IOS_XE_1 = {
+    "host": "173.37.56.91",
+    "username": "cisco",
+    "password": "C1sco12345",
+    "netconf_port": 5012,
+    "restconf_port": 9443,
+    "ssh_port": 5002
+}
 
 # End User Input
 
