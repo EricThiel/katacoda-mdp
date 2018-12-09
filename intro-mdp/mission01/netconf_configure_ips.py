@@ -52,7 +52,7 @@ messages = [
 # Create a list of devices to query
 devices = [
     {"conn": env_lab.IOS_XE_1, "ip": "172.16.255.1", "prefix": "24"},
-    {"conn": env_lab.IOS_XE_2, "ip": "172.16.255.2", "prefix": "24"},
+#    {"conn": env_lab.IOS_XE_2, "ip": "172.16.255.2", "prefix": "24"},
 ]
 
 # Step 1: Query the devices for the current interface configuration.
