@@ -39,7 +39,7 @@ project_root = os.path.abspath(os.path.join(here, "../.."))
 # Extend the system path to include the project root and import the env files
 sys.path.insert(0, project_root)
 import env_lab  # noqa
-import env_user  # noqa
+#import env_user  # noqa
 
 # Create a Cisco Spark object
 #spark = ciscosparkapi.CiscoSparkAPI(access_token=env_user.SPARK_ACCESS_TOKEN)
